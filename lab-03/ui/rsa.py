@@ -1,6 +1,5 @@
 import os
-os.environ['QT_QPA_PLATFORM_PLUGIN_PATH'] = "../platforms"
-
+os.environ['QT_AUTO_SCREEN_SCALE_FACTOR'] = '1'
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 

@@ -1,7 +1,8 @@
 import os
 import sys
-import requests  # Thư viện để gọi API gửi lên server Flask
+import requests  
 from PyQt5 import QtCore, QtGui, QtWidgets
+os.environ['QT_AUTO_SCREEN_SCALE_FACTOR'] = '1'
 
 # Cấu hình sửa lỗi hiển thị nền tảng và co rúm chữ
 os.environ['QT_QPA_PLATFORM_PLUGIN_PATH'] = "../platforms"
